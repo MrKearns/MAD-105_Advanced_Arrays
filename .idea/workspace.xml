@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eda2ab1d-cf9e-47e8-a886-5fddde3778c7" name="Changes" comment="Comments&#10;getting rid or old code">
+    <list default="true" id="eda2ab1d-cf9e-47e8-a886-5fddde3778c7" name="Changes" comment="fixed not getting to &quot;out of range&quot; message if choice not in range">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
       <workItem from="1675095088770" duration="10099000" />
       <workItem from="1675110289892" duration="32000" />
       <workItem from="1675110467481" duration="657000" />
-      <workItem from="1675111896201" duration="428000" />
+      <workItem from="1675111896201" duration="548000" />
     </task>
     <task id="LOCAL-00001" summary="yep">
       <created>1675108643517</created>
@@ -79,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675109267616</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed not getting to &quot;out of range&quot; message if choice not in range">
+      <created>1675112373850</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675112373850</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +94,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="yep" />
     <MESSAGE value="Comments&#10;getting rid or old code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comments&#10;getting rid or old code" />
+    <MESSAGE value="fixed not getting to &quot;out of range&quot; message if choice not in range" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed not getting to &quot;out of range&quot; message if choice not in range" />
   </component>
 </project>

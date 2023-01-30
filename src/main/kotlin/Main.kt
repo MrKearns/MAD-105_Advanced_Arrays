@@ -24,20 +24,23 @@ fun main(args: Array<String>) {
     println("\nEnter Item Number to Update Quantity: ")
     var choice = readln().toInt()
 
-    //var quantityEdit = bothArrays[1][choice -1]
 
+
+    // ---------- CHECK CHOICE ----------
 
     if (choice in 1 .. bothArrays[0].count()) {
 
         var currentQuantity = bothArrays[1][choice - 1].toInt()
         println("Update: ${bothArrays[0][choice - 1]} : ${bothArrays[1][choice - 1]}")
 
-        //---------- ADD or SUBTRACT ----------
+        //---------- ADD or SUBTRACT CHOICE----------
 
         println("1: Add")
         println("2: Subtract")
 
         var choice2 = readln().toInt()
+
+        // ---------- ADD ----------
 
         if (choice2 == 1) {
             println("Enter amount to ADD")
@@ -47,12 +50,14 @@ fun main(args: Array<String>) {
             println("Old Quantity for ${bothArrays[0][choice - 1]}: $currentQuantity")
             println("New Quantity for ${bothArrays[0][choice - 1]}: $newQuantity")
 
+        // ---------- SUBTRACT ----------
 
         } else if (choice2 == 2) {
             println("Enter amount to SUBTRACT")
             var subtractAmount = readln().toInt()
             var newQuantity = currentQuantity - subtractAmount
 
+        // ---------- CHECK IF ZERO OR LES ----------
 
             if (newQuantity < 0) {
                 println("ERROR: less than zero\nEnter New Amount")
