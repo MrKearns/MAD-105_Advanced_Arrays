@@ -24,13 +24,12 @@ fun main(args: Array<String>) {
     println("\nEnter Item Number to Update Quantity: ")
     var choice = readln().toInt()
 
-
-    var currentQuantity = bothArrays[1][choice -1].toInt()
     //var quantityEdit = bothArrays[1][choice -1]
 
 
     if (choice in 1 .. bothArrays[0].count()) {
 
+        var currentQuantity = bothArrays[1][choice - 1].toInt()
         println("Update: ${bothArrays[0][choice - 1]} : ${bothArrays[1][choice - 1]}")
 
         //---------- ADD or SUBTRACT ----------
@@ -71,9 +70,8 @@ fun main(args: Array<String>) {
                 println("New Quantity for ${bothArrays[0][choice - 1]}: $newQuantity")
             }
 
-        }else
-            println("Not a valid option.")
         }
-
+    }else
+        println("Error: Choice Out of Range")
 
 }

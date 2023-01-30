@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eda2ab1d-cf9e-47e8-a886-5fddde3778c7" name="Changes" comment="yep">
+    <list default="true" id="eda2ab1d-cf9e-47e8-a886-5fddde3778c7" name="Changes" comment="Comments&#10;getting rid or old code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -25,19 +25,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
@@ -60,7 +60,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675095087507</updated>
-      <workItem from="1675095088770" duration="9492000" />
+      <workItem from="1675095088770" duration="10099000" />
+      <workItem from="1675110289892" duration="32000" />
+      <workItem from="1675110467481" duration="657000" />
+      <workItem from="1675111896201" duration="428000" />
     </task>
     <task id="LOCAL-00001" summary="yep">
       <created>1675108643517</created>
@@ -69,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675108643517</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Comments&#10;getting rid or old code">
+      <created>1675109267616</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675109267616</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,6 +87,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="yep" />
-    <option name="LAST_COMMIT_MESSAGE" value="yep" />
+    <MESSAGE value="Comments&#10;getting rid or old code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comments&#10;getting rid or old code" />
   </component>
 </project>
