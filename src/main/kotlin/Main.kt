@@ -33,7 +33,7 @@ fun main(args: Array<String>) {
         var currentQuantity = bothArrays[1][choice - 1].toInt()
         println("Update: ${bothArrays[0][choice - 1]} : ${bothArrays[1][choice - 1]}")
 
-        //---------- ADD or SUBTRACT CHOICE----------
+        //---------- ADD OR SUBTRACT CHOICE----------
 
         println("1: Add")
         println("2: Subtract")
@@ -57,7 +57,7 @@ fun main(args: Array<String>) {
             var subtractAmount = readln().toInt()
             var newQuantity = currentQuantity - subtractAmount
 
-        // ---------- CHECK IF ZERO OR LES ----------
+        // ---------- CHECK IF ZERO OR LESS ----------
 
             if (newQuantity < 0) {
                 println("ERROR: less than zero\nEnter New Amount")
